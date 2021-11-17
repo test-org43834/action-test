@@ -9,3 +9,4 @@ runs:
   using: "composite"
   steps:
     - run: echo Hello ${{ inputs.who-to-greet }}.
+      shell: bash
